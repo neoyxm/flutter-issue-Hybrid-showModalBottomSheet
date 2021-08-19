@@ -49,7 +49,7 @@ class Native extends State<MyApp>{
         barrierColor: new Color.fromRGBO(1, 1, 1, 0.5),
         context: context,
         builder: (BuildContext context) {
-          return SafeArea(
+          return Container(
             child: Column(
               mainAxisSize: MainAxisSize.min, // 设置最小的弹出
               children: <Widget>[
