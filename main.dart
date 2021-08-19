@@ -51,7 +51,7 @@ class Native extends State<MyApp>{
         builder: (BuildContext context) {
           return Container(
             child: Column(
-              mainAxisSize: MainAxisSize.min, // 设置最小的弹出
+              mainAxisSize: MainAxisSize.min,  
               children: <Widget>[
                 new ListTile(
                   leading: new Icon(Icons.photo_camera),
@@ -81,25 +81,25 @@ class Native extends State<MyApp>{
               child: new Text('showModalBottomSheet')),
 
          new Container(
-              height: 100, // 单位是逻辑上的像素（并非真实的像素，类似于浏览器中的像素）
+              height: 100,  
               width: 100,
               child: buildHybridCompositionView(),
               // child: AndroidView(viewType: "view1",)
                ),
           new Container(
-            height: 100, // 单位是逻辑上的像素（并非真实的像素，类似于浏览器中的像素）
+            height: 100,  
             width: 100,
             child: buildHybridCompositionView(),
             // child: AndroidView(viewType: "view1",)
           ),
           new Container(
-            height: 100, // 单位是逻辑上的像素（并非真实的像素，类似于浏览器中的像素）
+            height: 100,  
             width: 100,
             child: buildHybridCompositionView(),
             // child: AndroidView(viewType: "view1",)
           ),
           new Container(
-            height: 100, // 单位是逻辑上的像素（并非真实的像素，类似于浏览器中的像素）
+            height: 100,  
             width: 100,
             child: buildHybridCompositionView(),
             // child: AndroidView(viewType: "view1",)
