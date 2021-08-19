@@ -46,7 +46,6 @@ class Native extends State<MyApp>{
 
   void _showActionSheet() {
     showModalBottomSheet(
-        barrierColor: new Color.fromRGBO(1, 1, 1, 0.5),
         context: context,
         builder: (BuildContext context) {
           return Container(
